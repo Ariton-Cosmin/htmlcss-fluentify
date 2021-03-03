@@ -126,3 +126,143 @@ header {
 
 
 /* /header */
+
+
+/* main */
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.first-section {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(211, 211, 211);
+}
+
+.first-section .texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 35px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-section p {
+    color: rgb(134, 134, 134);
+}
+
+
+/* column */
+
+.second-section {
+    padding-top: 30px;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+
+.second-section .column-left,
+.second-section .column-center {
+    float: left;
+    margin-right: 5%;
+    width: 30%;
+    height: 100%;
+}
+
+.column-right {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.image-left,
+.image-center,
+.image-right {
+    width: 100%;
+    height: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-left {
+    background-image: url(../img/profile.svg);
+}
+
+.image-center {
+    background-image: url(../img/computer.svg);
+}
+
+.image-right {
+    background-image: url(../img/doc.svg);
+}
+
+.second-section h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgb(124, 187, 4);
+    border-bottom: 1px solid black;
+}
+
+.column-left p,
+.column-center p,
+.column-right p {
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(135, 135, 135);
+}
+
+
+/* /column */
+
+.third-section {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.mountain-image {
+    float: left;
+}
+
+.right-text {
+    float: right;
+}
+
+.right-text h1,
+.right-text p,
+.right-text a {
+    padding: 10px;
+}
+
+.right-text p {
+    color: rgb(132, 132, 132);
+}
+
+.right-text a {
+    font-size: 13px;
+}
+
+.mountain-image {
+    width: 50%;
+    height: 80%;
+    background-image: url(../img/mountain.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* /main */
+
+
+/* footer */
+
+
+/* /footer */
