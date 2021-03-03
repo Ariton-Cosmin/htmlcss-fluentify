@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear:fix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+
+/* header */
+
+header {
+    height: 550px;
+}
+
+.header-container {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    min-width: 1200px;
+    background-color: rgb(12, 50, 90);
+    background-image: url(../img/background-header.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: 120% 110%;
+}
+
+
+/* nav */
+
+.header-nav {
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+
+.header-nav .header-logo {
+    width: 15%;
+}
+
+.header-nav .header-logo img {
+    margin-top: 15px;
+}
+
+.header-nav .header-center {
+    width: 50%;
+}
+
+.header-nav .header-right {
+    width: 35%;
+    float: right;
+}
+
+.menu-inline {
+    list-style: none;
+}
+
+.menu-inline li {
+    display: inline;
+    padding: 0 2%;
+}
+
+.menu-inline li a {
+    text-decoration: none;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button.button-green {
+    border: none;
+    background-color: rgb(124, 187, 4);
+}
+
+
+/* /nav */
+
+.title {
+    position: relative;
+    height: 470px;
+}
+
+.title .text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text h1 {
+    font-size: 300%;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.button.button-large {
+    padding: 20px;
+}
+
+
+/* /header */
