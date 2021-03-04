@@ -50,6 +50,10 @@ header {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 .header-nav .header-logo {
     width: 15%;
 }
@@ -64,7 +68,6 @@ header {
 
 .header-nav .header-right {
     width: 35%;
-    float: right;
 }
 
 .menu-inline {
@@ -132,8 +135,12 @@ header {
 
 main {
     width: 100%;
+    min-width: 1200px;
     height: 100vh;
 }
+
+
+/* first main section */
 
 .first-section {
     position: relative;
@@ -157,6 +164,9 @@ main {
 
 
 /* column */
+
+
+/* second main section */
 
 .second-section {
     padding-top: 30px;
@@ -191,22 +201,25 @@ main {
 
 .image-left {
     background-image: url(../img/profile.svg);
+    background-size: 40%;
 }
 
 .image-center {
     background-image: url(../img/computer.svg);
+    background-size: 65%;
 }
 
 .image-right {
     background-image: url(../img/doc.svg);
+    background-size: 45%;
 }
 
 .second-section h2 {
+    width: 100%;
+    height: 20%;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    font-size: 20px;
     color: rgb(124, 187, 4);
-    border-bottom: 1px solid black;
 }
 
 .column-left p,
@@ -215,10 +228,14 @@ main {
     text-align: center;
     padding-top: 30px;
     color: rgb(135, 135, 135);
+    border-top: 1px solid gray;
 }
 
 
 /* /column */
+
+
+/* third main section */
 
 .third-section {
     width: 80%;
@@ -251,7 +268,7 @@ main {
 
 .mountain-image {
     width: 50%;
-    height: 80%;
+    height: 90%;
     background-image: url(../img/mountain.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -259,10 +276,67 @@ main {
 }
 
 
+/* fourth main section */
+
+.fourth-section {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: rgb(211, 211, 211);
+}
+
+.footer-container {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    line-height: 150px;
+}
+
+.footer-container .bottom-left {
+    width: 60%;
+}
+
+.footer-container .bottom-right {
+    width: 40%;
+}
+
+.bottom-inline {
+    list-style: none;
+}
+
+.bottom-inline li,
+.bottom-inline .li-special {
+    display: inline;
+    padding: 0 4%;
+    color: rgb(132, 132, 132);
+}
+
+.bottom-inline li h2 {
+    display: inline;
+    color: black;
+    font-size: 30px;
+}
+
+.bottom-inline .li-list {
+    border-bottom: 1px solid;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.bottom-inline .li-list .icon {
+    padding-left: 50px;
+}
+
+.bottom-inline li a {
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottom-inline .button-bottom {
+    margin-left: 15px;
+}
+
+
 /* /main */
-
-
-/* footer */
-
-
-/* /footer */
